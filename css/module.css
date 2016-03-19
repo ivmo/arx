@@ -1,0 +1,411 @@
+.sprite {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sprite-fb {
+    width: 10px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite-google {
+    width: 21px;
+    height: 20px;
+    background-position: -25px -5px;
+}
+
+.sprite-marts1 {
+    width: 126px;
+    height: 30px;
+    background-position: -56px -5px;
+}
+
+.sprite-marts2 {
+    width: 126px;
+    height: 30px;
+    background-position: -192px -5px;
+}
+
+.sprite-minicf {
+    width: 35px;
+    height: 23px;
+    background-position: -328px -5px;
+}
+
+.sprite-miniwf {
+    width: 34px;
+    height: 26px;
+    background-position: -373px -5px;
+}
+
+.sprite-tw {
+    width: 26px;
+    height: 22px;
+    background-position: -417px -5px;
+}
+
+.sprite-vk {
+    width: 16px;
+    height: 18px;
+    background-position: -453px -5px;
+}
+
+
+
+.logo {
+  float: left;
+  width: 50px;
+  height: 70px;
+  margin-right: 35px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.main-menu {
+  float: left;
+  max-width: 643px;
+  padding: 27px 0;
+}
+
+.menu-container {
+  font-size: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  color: #bfbfbf;
+  border-bottom: 3px solid #1a1e21;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.active {
+  /*padding-bottom: 8px;*/
+  border-bottom: 3px solid #ff0000;
+}
+
+.active .item-link {
+  color: #fff;
+}
+
+.item-link {
+  color: #bfbfbf;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.user-block {
+  float: right;
+  width: 475px;
+  padding: 15px 0;
+}
+
+.user-link,
+.lang {
+  float: left;
+  width: 135px;
+  margin-right: 35px;
+  padding: 12px 0;
+  color: #bfbfbf;
+  text-decoration: none;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.lang,
+.rus,
+.eng {
+  margin-right: 0;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #14171a;
+}
+
+.lang .rus:before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 16px;
+  vertical-align: baseline;
+  /*background-image: url("../img/rus.png");
+  background-repeat: no-repeat;*/
+
+}
+
+
+
+/*end head*/
+/*main*/
+.main-slider {
+  height: 450px;
+}
+
+.main-slider .slide {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  outline: none;
+}
+
+.main-slider .slide1 {
+  background-image: url("../img/bgslide1.png");
+}
+
+.main-slider .slide2 {
+  background-image: url("../img/bgslide2.png");
+}
+
+.slide .l-container {
+  position: relative;
+  padding-top: 40px;
+}
+
+.slide-cont {
+  float: left;
+  width: 480px;
+  padding-left: 136px;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.slide-logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 295px;
+  margin: 0 auto 37px auto;
+}
+
+.slide-cont .slide-logo img {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.slide-text {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.slide1 .l-container > img {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+.slide2 .l-container > img {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.games-item {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 289px;
+
+}
+
+.cf {
+  background: url("../img/gamecf.jpg") no-repeat;
+}
+
+.wf {
+  background: url("../img/gamewf.jpg") no-repeat;
+}
+
+.games-top {
+  height: 228px;
+  padding: 35px 28px 55px 28px;
+}
+
+.game-top-cont {
+  width: 250px;
+  text-align: center;
+}
+
+.games-logo {
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 14px 25px;
+  color: #fff;
+  background: #1a1e21;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: 300;
+}
+
+.games-bottom {
+  height: 61px;
+  padding: 20px 0 15px 28px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.games-mini-logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  margin-right: 9px;
+}
+
+.games-mini-logo img {
+  max-width: 100%;
+}
+
+.games-bottom-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about-img {
+  float: right;
+  width: 409px;
+  height: 215px;
+}
+
+.about-img img {
+  max-width: 100%;
+}
+
+.about-text {
+  margin-right: 430px;
+  padding: 25px 0 0 28px;
+  font-size: 16px;
+}
+
+.about-text-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.about-text-cont {
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.social-cont {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 50px;
+  text-align: center;
+  background: #1e2327;
+  z-index: 2;
+  font-size: 0;
+  text-align: center;
+}
+
+.social-btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  margin-right: 12px;
+  line-height: 44px;
+  background: #2e353b;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.social-btn:last-child {
+  margin-right: 0;
+}
+
+.footer-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 70px;
+}
+
+.footer-item:last-child {
+  margin-right: 0;
+}
+
+.footer-title {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.footer-list-item {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #bfbfbf;
+  list-style: none;
+  text-align: left;
+}
+
+.footer-list-item:before {
+  content: "-";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.footer-item-link {
+  font-size: 14px;
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+.des-link {
+  width: 126px;
+  height: 30px;
+  margin-bottom: 30px;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -56px -5px;
+
+}
+
+.des-link a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.copyrights-text {
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.red {
+  color: #f00;
+}
+
+.copyrights-text-bottom {
+  font-size: 12px;
+  color: #bfbfbf;
+}
+
+
+
+
+
+
+
+
+
+
+/**/

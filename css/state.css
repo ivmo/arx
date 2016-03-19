@@ -1,0 +1,70 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.item-link:hover,
+.is-item-link-hover {
+  color: #fff;
+}
+
+.user-link:hover,
+.lang:hover,
+.is-lang-hover,
+.is-user-link-hover {
+  background: #14171a;
+  color: #FFF;
+}
+
+.games-top:hover,
+.is-games-top-hover {
+  background: linear-gradient(to top, rgba(255, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.1) 100%);
+  cursor: pointer;
+}
+
+.social-btn:hover,
+.is-social-btn-hover {
+  background: #41638a;
+}
+
+.footer-item-link:hover,
+.is-footer-item-link-hover {
+  text-decoration: underline;
+}
+
+.des-link:hover,
+.is-des-logo-hover {
+  background-position: -192px -5px;
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

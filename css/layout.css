@@ -1,0 +1,88 @@
+ body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: #1e2327;
+}
+
+.l-header {
+  background: #1a1e21;
+}
+
+.l-container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.l-header .l-container {
+  padding: 10px 0;
+  background: #1a1e21;
+}
+
+.l-main {
+  background: #1e2327;
+}
+
+.l-games {
+  margin-bottom: 30px;
+}
+
+.l-about {
+  background: #1a1e21;
+}
+
+.l-social {
+  padding: 30px 0;
+  background: #1e2327;
+  font-size: 0;
+  text-align: center;
+}
+
+.l-social:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -25px;
+  z-index: 1;
+  border-bottom: 1px solid #33333d;
+}
+
+.l-footer {
+
+  background: #1a1e21;
+}
+
+.l-footer-items {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 0;
+  background: #1a1e21;
+}
+
+
+
+@media (max-width: 480px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
