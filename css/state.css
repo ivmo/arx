@@ -10,8 +10,8 @@
 }
 
 .user-link:hover,
-.lang:hover,
-.is-lang-hover,
+.lang select:hover,
+.is-lang-select-hover,
 .is-user-link-hover {
   background: #14171a;
   color: #FFF;
@@ -38,7 +38,7 @@
   background-position: -192px -5px;
 
 }
- 
+
 
 
 

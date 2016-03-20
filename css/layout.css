@@ -10,7 +10,8 @@
 }
 
 .l-container {
-  width: 1240px;
+  max-width: 1240px;
+  min-width: 480px;
   margin: 0 auto;
 }
 
@@ -54,15 +55,39 @@
 
 .l-footer-items {
   padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 50px;
   font-size: 0;
   background: #1a1e21;
+  text-align: justify;
+}
+
+@media (max-width: 1260px) {
+.l-container {
+  /*width: 960px;*/
+}
+}
+
+/*@media (max-width: 980px) {
+.l-container {
+  max-width: 960px;
+  min-width: 768px;
 }
 
 
+}*/
 
 @media (max-width: 480px) {
+.l-container {
+  width: 100%;
+  min-width: 320px;
+}
 
+.l-footer-items {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 }
 
 
