@@ -1,4 +1,4 @@
-.clearfix::after {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -39,7 +39,38 @@
 
 }
 
+/*wf.html*/
+.sorting-link:hover,
+.is-sorting-link-hover {
+  color: #fff;
+}
 
+.active-sort-item:hover,
+.is-active-sort-item-hover {
+  color: #f00;
+  pointer-events: none;
+}
+
+.read-more:hover,
+.is-read-more-hover {
+  color: #942527;
+}
+
+.page-link:hover,
+.is-page-link-hover,
+.page-link-dots:hover,
+.is-page-link-dots-hover {
+  background: #1e2326;
+  color: #c3c4c5;
+}
+
+.page-link:active,
+.is-page-link:active,
+.page-link-dots:active,
+.is-page-link-dots-active {
+  background: #1e2326;
+}
+/*end wf.html*/
 
 
 

@@ -3,6 +3,7 @@
 	width: 135px;
 	background: #1a1e21;
 	cursor: pointer;
+	border-radius: 7px;
 }
 .jq-selectbox__select {
 	height: 32px;
