@@ -88,6 +88,11 @@
   box-shadow: inset 0px 10px 35px 5px #000;
   color: #ccc;
 }
+
+.m-menu-item-link:hover,
+.is-m-menu-item-link-hover {
+  background: #242424;
+}
 /*end wf.html*/
 
 
