@@ -65,7 +65,7 @@ body {
 /*end index.html*/
 /*wf.html*/
 .l-wf-bg {
-  background: #0f1113 url("../img/wf-main.png") no-repeat;
+  background: #0f1113 url("/content/img/wf-main.png") no-repeat;
 }
 
 .l-wf-bg .l-header,
