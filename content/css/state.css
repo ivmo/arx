@@ -18,7 +18,9 @@
 }
 
 .games-top:hover,
-.is-games-top-hover {
+.is-games-top-hover,
+.section-link:hover,
+.is-section-link-hover {
   background: linear-gradient(to top, rgba(255, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.1) 100%);
   cursor: pointer;
 }
@@ -69,6 +71,22 @@
 .page-link-dots:active,
 .is-page-link-dots-active {
   background: #1e2326;
+}
+
+.tab-link:hover,
+.is-tab-link-hover {
+  color: #fff;
+}
+
+.forum-list-item-link:hover,
+.is-forum-list-item-link-hover {
+  color: #fff;
+}
+
+.download-btn:active,
+.is-download-btn-active {
+  box-shadow: inset 0px 10px 35px 5px #000;
+  color: #ccc;
 }
 /*end wf.html*/
 

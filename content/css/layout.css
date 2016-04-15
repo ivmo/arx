@@ -1,5 +1,5 @@
- body {
-  font-family: 'Roboto', Arial, sans-serif;
+body {
+  font-family: 'Roboto', Arial, serif;
   font-size: 14px;
   color: #fff;
   background: #1e2327;
@@ -11,7 +11,7 @@
 
 .l-container {
   max-width: 1240px;
-  min-width: 320px;
+  min-width: 280px;
   margin: 0 auto;
 }
 
@@ -92,14 +92,16 @@
 
 }
 
-.l-sidebar {
-  float: right;
-  width: 376px;
+.l-news-content {
+  float: left;
+  width: 70%;
+  background: #1a1e21;
 }
 
-.l-news-content {
-  margin-right: 378px;
-  background: #1a1e21;
+.l-sidebar {
+  float: right;
+  width: 30%;
+  padding: 10px;
 }
 
 
@@ -109,7 +111,16 @@
 }
 
 @media (max-width: 980px) {
+  .l-news-content {
+    float: none;
+    width: 100%;
+  }
 
+  .l-sidebar {
+    float: none;;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {

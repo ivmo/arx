@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="content/css/reset.css" rel="stylesheet">
     <link href="content/css/layout.css" rel="stylesheet">
     <link href="content/css/module.css" rel="stylesheet">
@@ -44,11 +44,27 @@
 
     <div class="l-container big-logo"><img src="content/img/wflogo-main.png" alt="" /></div>
 
-    <div class="l-container l-main-nav">
+    <div class="l-container l-main-nav clearfix">
+          <div class="m-menu">
+            <div class="m-menu-bar">
+              <button class="m-menu-btn" id="mmbtn" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <ul class="m-menu-list" id="list">
+              <li class="m-menu-item m-menu-item-active"><a class="m-menu-item-link" href="#">Главная</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Об игре</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Рейтинги</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Скачать</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Медиа</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Общение</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Помощь</a></li>
+            </ul>
+          </div>
 
-        <div class="nav">
-
-        </div>
+        <a class="download-btn" href="#">Скачать игру</a>
     </div>
 
     <div class="l-container l-news-slider">
@@ -85,31 +101,7 @@
         </div>
     </div>
 
-    <div class="l-container">
-
-      <aside class="l-sidebar">
-          <div class="sidebar-section">
-              <div class="section-title"><a class="section-title-link" href="#">Как пополнять счет?</a></div>
-          </div>
-          <div class="sidebar-section">
-              <div class="section-title"><a class="section-title-link" href="#">Как пополнять счет?</a></div>
-          </div>
-          <div class="sidebar-section">
-              <div class="section-title"><a class="section-title-link" href="#">Как пополнять счет?</a></div>
-          </div>
-
-          <div class="game-data">
-              <div class="game-data-title">Топ кланов</div>
-
-          </div>
-
-          <div class="forum-data">
-              <div class="forum-data-title">Форум</div>
-
-
-          </div>
-
-      </aside>
+    <div class="l-container clearfix">
 
         <div class="l-news-content">
             <div class="sorting-row clearfix">
@@ -182,9 +174,23 @@
             <div class="promo">
                 <div class="promo-item">
                     <div class="promo-pic">
-                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src="/content/img/promo1.jpg" alt="" /></a>
                     </div>
-                    <div class="promo-title">Рейтинги</div>
+                    <div class="promo-title"><h3>Рейтинги</h3></div>
+                    <div class="promo-text">Рейтинг игроков по рангу. Посмотри их все!</div>
+                </div>
+                <div class="promo-item">
+                    <div class="promo-pic">
+                        <a href="#"><img src="/content/img/promo2.jpg" alt="" /></a>
+                    </div>
+                    <div class="promo-title"><h3>Рейтинги</h3></div>
+                    <div class="promo-text">Рейтинг игроков по рангу. Посмотри их все!</div>
+                </div>
+                <div class="promo-item">
+                    <div class="promo-pic">
+                        <a href="#"><img src="/content/img/promo3.jpg" alt="" /></a>
+                    </div>
+                    <div class="promo-title"><h3>Рейтинги</h3></div>
                     <div class="promo-text">Рейтинг игроков по рангу. Посмотри их все!</div>
                 </div>
             </div>
@@ -224,7 +230,56 @@
 
         </div>
 
+        <aside class="l-sidebar">
+            <div class="sidebar-section">
+                <a class="section-link" href="#"></a>
+                <div class="section-title"><h3>Как пополнять счет?</h3></div>
+            </div>
+            <div class="sidebar-section">
+                <a class="section-link" href="#"></a>
+                <div class="section-title"><h3>Поддержка</h3></div>
+            </div>
+            <div class="sidebar-section">
+                <a class="section-link" href="#"></a>
+                <div class="section-title"><h3>Акции и бонусы</h3></div>
+            </div>
 
+            <div class="game-data players-rating">
+                <div class="game-data-title">Топ кланов</div>
+                <div class="tabs">
+                  <a class="tab-link active-sort-item" href="#">Альфа</a>
+                  <a class="tab-link" href="#">Браво</a>
+                  <a class="tab-link" href="#">Чарли</a>
+                </div>
+                <div class="data-list">
+                  <ol class="players-list">
+                    <li class="players-list-item">Фаталисты</li>
+                    <li class="players-list-item">Русь</li>
+                    <li class="players-list-item">Торнадо</li>
+                    <li class="players-list-item">Призраки</li>
+                  </ol>
+                </div>
+
+            </div>
+
+            <div class="game-data forum-news">
+                <div class="game-data-title forum-data-title">Форум</div>
+                <div class="tabs">
+                  <a class="tab-link active-sort-item" href="#">Последние темы</a>
+                  <a class="tab-link" href="#">Самые обсуждаемые</a>
+                </div>
+                <div class="data-list">
+                  <ul class="forum-list">
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Время ускоряться!</a><div class="forum-date">Сегодня 19:54</div></li>
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Класс Снайпер - баланс</a><div class="forum-date">Сегодня 19:52</div></li>
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Время ускоряться!</a><div class="forum-date">Сегодня 19:54</div></li>
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Класс Снайпер - баланс</a><div class="forum-date">Сегодня 19:52</div></li>
+                  </ul>
+                </div>
+
+            </div>
+
+        </aside>
 
     </div>
 
