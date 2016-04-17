@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="/content/css/reset.css" rel="stylesheet">
+    <link href="/content/css/layout.css" rel="stylesheet">
+    <link href="/content/css/module.css" rel="stylesheet">
+    <link href="/content/css/state.css" rel="stylesheet">
+    <link href="/content/news/css/layout.css" rel="stylesheet">
+    <link href="/content/news/css/module.css" rel="stylesheet">
+    <link href="/content/news/css/state.css" rel="stylesheet">
+    <link href="/content/css/jquery.formstyler.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/content/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/content/slick/slick-theme.css" />
+    <title>news page</title>
+</head>
+
+<body class="l-wf-bg">
+    <header class="l-header">
+        <div class="l-container clearfix">
+            <div class="logo"><img src="/content/img/logo.png" alt="" /></div>
+            <div class="user-block">
+                <a class="profile-link" href="#">Elf80lvl</a>
+                <a class="user-link" href="#">Завершить сеанс</a>
+                <div class="lang">
+                    <select>
+                        <option class="lang-ru">Русский</option>
+                        <option class="lang-en">Английский</option>
+                    </select>
+
+                </div>
+            </div>
+            <nav class="main-menu">
+                <ul class="menu-container">
+                    <li class="menu-item active"><a class="item-link" href="#">Warface</a></li>
+                    <li class="menu-item"><a class="item-link" href="#">Игры</a></li>
+                    <li class="menu-item"><a class="item-link" href="#">Форум</a></li>
+                    <li class="menu-item"><a class="item-link" href="#">Тех.поддержка</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="l-container big-logo">
+      <div class="big-logo-cont"><img src="/content/img/wfarx.png" alt="" /></div>
+      <div class="server-status">
+        Статус сервера: <span class="greentxt"> online</span><div class="count-pl">Онлайн игроков: 1728</div>
+      </div>
+    </div>
+
+    <div class="l-container l-main-nav clearfix">
+      <a class="download-btn" href="#">Скачать игру</a>
+          <div class="m-menu">
+            <div class="m-menu-bar">
+              <button class="m-menu-btn" id="mmbtn" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <ul class="m-menu-list" id="list">
+              <li class="m-menu-item m-menu-item-active"><span>Главная</span></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Об игре</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Рейтинги</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Скачать</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Медиа</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Общение</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Помощь</a></li>
+            </ul>
+          </div>
+
+
+    </div>
+
+    <div class="l-container clearfix">
+
+        <div class="l-news-content">
+
+            <div class="news-block">
+                <div class="news-page-item clearfix">
+
+                    <div class="news-text-page">
+                        <div class="news-page-head">
+                            <div class="news-date"><span class="date-num">20</span>.03.2016</div>
+                            <div class="news-label">Важное</div>
+                            <div class="news-title">Скидки на ускорители ждут вас!</div>
+                        </div>
+                        <div class="news-body">
+                            <div class="news-content">
+                               Времени на приобритение ускорителей со скидкой остальсь совсем мало.<br>текст новости
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="comments">
+              <div class="comments-area clearfix">
+                <form action="">
+                  <textarea class="text-area" name="comment" rows="8" cols="40"></textarea>
+                  <button class="btn-comment" type="submit">Оставить комментарий</button>
+                </form>
+              </div>
+              <div class="comments-list">
+                <div class="comment-item">
+                  <div class="comment-item-img"><a href="#"><img src="" alt="" /></a></div>
+                  <div class="comment-item-text">
+                    <div class="comment-item-text-header clearfix">
+                      <div class="comment-username"><a class="comment-username-link online-dot" href="#">CryWolf73</a></div>
+                      <div class="comment-date"><span class="dark-text">Добавлено: </span> сегодня в 16:50</div>
+                    </div>
+                    <div class="comment-item-text-body"> коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент</div>
+                    <div class="reply"><a class="reply-link" href="#">Ответить</a></div>
+                  </div>
+                </div>
+                <div class="comment-item">
+                  <div class="comment-item-img"><a href="#"><img src="" alt="" /></a></div>
+                  <div class="comment-item-text">
+                    <div class="comment-item-text-header clearfix">
+                      <div class="comment-username"><a class="comment-username-link offline-dot" href="#">CryWolf73</a></div>
+                      <div class="comment-date"><span class="dark-text">Добавлено: </span> сегодня в 16:50</div>
+                    </div>
+                    <div class="comment-item-text-body"> коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент</div>
+                    <div class="reply"><a class="reply-link" href="#">Ответить</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="promo">
+                <div class="promo-item">
+                    <div class="promo-pic">
+                        <a href="#"><img src="/content/img/promo1.jpg" alt="" /></a>
+                    </div>
+                    <div class="promo-title"><h3>Рейтинги</h3></div>
+                    <div class="promo-text">Рейтинг игроков по рангу. Посмотри их все!</div>
+                </div>
+                <div class="promo-item">
+                    <div class="promo-pic">
+                        <a href="#"><img src="/content/img/promo2.jpg" alt="" /></a>
+                    </div>
+                    <div class="promo-title"><h3>Рейтинги</h3></div>
+                    <div class="promo-text">Рейтинг игроков по рангу. Посмотри их все!</div>
+                </div>
+                <div class="promo-item">
+                    <div class="promo-pic">
+                        <a href="#"><img src="/content/img/promo3.jpg" alt="" /></a>
+                    </div>
+                    <div class="promo-title"><h3>Рейтинги</h3></div>
+                    <div class="promo-text">Рейтинг игроков по рангу. Посмотри их все!</div>
+                </div>
+            </div>
+
+
+          </div>
+
+        <aside class="l-sidebar">
+            <div class="sidebar-section">
+                <a class="section-link" href="#"></a>
+                <div class="section-title"><h3>Как пополнять счет?</h3></div>
+            </div>
+            <div class="sidebar-section">
+                <a class="section-link" href="#"></a>
+                <div class="section-title"><h3>Поддержка</h3></div>
+            </div>
+            <div class="sidebar-section">
+                <a class="section-link" href="#"></a>
+                <div class="section-title"><h3>Акции и бонусы</h3></div>
+            </div>
+
+            <div class="game-data players-rating">
+                <div class="game-data-title">Топ кланов</div>
+                <div class="tabs">
+                  <a class="tab-link active-sort-item" href="#">Альфа</a>
+                  <a class="tab-link" href="#">Браво</a>
+                  <a class="tab-link" href="#">Чарли</a>
+                </div>
+                <div class="data-list">
+                  <ol class="players-list">
+                    <li class="players-list-item">Фаталисты</li>
+                    <li class="players-list-item">Русь</li>
+                    <li class="players-list-item">Торнадо</li>
+                    <li class="players-list-item">Призраки</li>
+                  </ol>
+                </div>
+
+            </div>
+
+            <div class="game-data forum-news">
+                <div class="game-data-title forum-data-title">Форум</div>
+                <div class="tabs">
+                  <a class="tab-link active-sort-item" href="#">Последние темы</a>
+                  <a class="tab-link" href="#">Самые обсуждаемые</a>
+                </div>
+                <div class="data-list">
+                  <ul class="forum-list">
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Время ускоряться!</a><div class="forum-date">Сегодня 19:54</div></li>
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Класс Снайпер - баланс</a><div class="forum-date">Сегодня 19:52</div></li>
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Время ускоряться!</a><div class="forum-date">Сегодня 19:54</div></li>
+                    <li class="forum-list-item"><a class="forum-list-item-link" href="#">Класс Снайпер - баланс</a><div class="forum-date">Сегодня 19:52</div></li>
+                  </ul>
+                </div>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+    <div class="l-container l-social">
+        <div class="social-cont">
+            <a class="social-btn" href="#"><i class="sprite sprite-fb"></i></a>
+            <a class="social-btn" href="#"><i class="sprite sprite-vk"></i></a>
+            <a class="social-btn" href="#"><i class="sprite sprite-tw"></i></a>
+            <a class="social-btn" href="#"><i class="sprite sprite-google"></i></a>
+        </div>
+    </div>
+
+    <footer class="l-footer">
+        <div class="l-container l-footer-items">
+            <div class="footer-item">
+                <div class="footer-title">Список игр</div>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Crossfire</a></li>
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Warface</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-title">Аккаунт</div>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Создать аккаунт</a></li>
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Восстановить аккаунт</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-title">Контакты</div>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Форум</a></li>
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-title">Правила</div>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Правила проекта</a></li>
+                    <li class="footer-list-item"><a class="footer-item-link" href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+            <div class="footer-item copyrights">
+                <div class="des-link">
+                    <a href="#"></a>
+                </div>
+                <div class="copyrights-text"><span class="red">&copy; 2015-2016 </span>ARX Gaming All rights reserved.</div>
+                <div class="copyrights-text-bottom">Trademarks referenced herein belong to their respective owners.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <i class="sprite sprite-fb"></i>
+<i class="sprite sprite-google"></i>
+<i class="sprite sprite-marts1"></i>
+<i class="sprite sprite-marts2"></i>
+<i class="sprite sprite-minicf"></i>
+<i class="sprite sprite-miniwf"></i>
+<i class="sprite sprite-tw"></i>
+<i class="sprite sprite-vk"></i> -->
+    <!--  -->
+    <script src="/content/slick/jquery-1.11.0.min.js"></script>
+    <script src="/content/slick/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/content/slick/slick.min.js"></script>
+    <script src="/content/js/jquery.formstyler.js"></script>
+    <script src="/content/js/m-nav.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.main-slider').slick({
+                infinite: true,
+                autoplay: true,
+                arrows: true
+            });
+        });
+    </script>
+    <script>
+        (function($) {
+            $(function() {
+                $('select').styler({
+                    selectSearch: true
+                });
+            });
+        })(jQuery);
+    </script>
+</body>
+
+</html>

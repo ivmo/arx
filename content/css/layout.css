@@ -86,6 +86,8 @@ body {
 
 .l-main-nav {
   background: #1a1e21;
+  border-bottom: 1px solid #1a1a1a;
+    box-shadow: 0 1px 0 0 #21272b;
 }
 
 .l-news-slider {

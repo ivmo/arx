@@ -1,0 +1,14 @@
+.btn-comment:hover,
+.is-btn-comment-hover {
+background: #242424;
+}
+
+.reply-link:hover,
+.is-reply-link-hover {
+  text-decoration: underline;
+}
+
+.comment-username-link:hover,
+.is-comment-username-link-hover {
+  color: #fff;
+}
