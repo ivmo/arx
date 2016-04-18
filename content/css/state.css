@@ -25,6 +25,11 @@
   cursor: pointer;
 }
 
+.btn:hover,
+.is-btn-hover {
+  opacity: 0.8;
+}
+
 .social-btn:hover,
 .is-social-btn-hover {
   background: #41638a;
