@@ -121,6 +121,7 @@ body {
   .l-sidebar {
     float: none;;
     width: 100%;
+    background: #16191c;
     text-align: center;
   }
 }
