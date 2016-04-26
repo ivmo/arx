@@ -32,7 +32,27 @@
 
 .social-btn:hover,
 .is-social-btn-hover {
+  box-shadow: 0 3px 4px -2px #000;
+}
+
+.fb:hover,
+.is-fb-hover {
+background: #324a80;
+}
+
+.vk:hover,
+.is-vk-hover {
   background: #41638a;
+}
+
+.tw:hover,
+.is-tw-hover {
+  background: #0098d4;
+}
+
+.gl:hover,
+.is-gl-hover {
+  background: #e60000;
 }
 
 .footer-item-link:hover,

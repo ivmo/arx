@@ -53,75 +53,49 @@
   </header>
 
   <div class="l-main">
-      <div class="main-slider">
-        <div class="slide slide1">
-          <div class="l-container">
-            <div class="slide-cont">
-            <div class="slide-logo">
-              <img src="content/img/slwf.png" alt="" />
-            </div>
-            <div class="slide-text">
-              Warface — компьютерная игра в жанре массового многопользовательского онлайн шутера от первого лица (MMOFPS). Warface разработана тремя студиями компании Crytek: в основном украинским филиалом Crytek Kiev, южнокорейским филиалом «Crytek Seoul» и студией во Франкфурте-на-Майне.
-            </div>
-            <a class="btn" href="#">Начать игру</a>
-          </div>
-          <img src="content/img/sol1.png" alt="" />
-          </div>
-        </div>
-        <div class="slide slide2">
-          <div class="l-container">
-            <div class="slide-cont">
-            <div class="slide-logo">
-              <img src="content/img/cross.png" alt="" />
-            </div>
-            <div class="slide-text">
-              Cross Fire - захватывающий MMO-шутер со множеством игровых режимов и уникальных возможностей. Играйте за военные отряды на стороне человечества или уничтожайте людей в роли кровожадного мутанта: выбор за вами!
-            </div>
-            <a class="btn" href="#">Начать игру</a>
-          </div>
-          <img src="content/img/sol2.png" alt="" />
-        </div>
-        </div>
-
-        </div>
-    </div>
-
-    <div class="l-container l-games clearfix">
-      <div class="games-item cf">
-        <div class="games-top">
-          <div class="game-top-cont">
-          <div class="games-logo"><img src="content/img/cf.png" alt="" /></div>
-          <a class="btn" href="#">Перейти на сайт</a>
-        </div>
-        </div>
-        <div class="games-bottom">
-          <div class="games-mini-logo"><i class="sprite sprite-minicf"></i></div>
-          <div class="games-bottom-text">First-person shooter</div>
-        </div>
-      </div>
-      <div class="games-item wf">
-        <div class="games-top">
-          <div class="game-top-cont">
-          <div class="games-logo"><img src="content/img/wf.png" alt="" /></div>
-          <a class="btn" href="#">Перейти на сайт</a>
-          </div>
-        </div>
-        <div class="games-bottom">
-          <div class="games-mini-logo"><i class="sprite sprite-miniwf"></i></div>
-          <div class="games-bottom-text">Mmofps</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="l-container l-about clearfix">
-      <div class="about-img"><img src="content/img/arx.jpg" alt="" /></div>
-      <div class="about-text">
-        <div class="about-text-title">Игровое сообщество для каждого из вас!</div>
-        <div class="about-text-cont">Наше игровое сообщество – это наша гордость. Мы стремимся к тому, чтобы наши игроки получали качественную обратную связь как от разработчиков, так и от более опытных коллег по ремеслу, и учились играть еще лучше! С каждым днем наше сообщество становится больше и круче, и это заслуга каждого из наших игроков.</div>
-        <div class="about-text-cont">Присоединяйся к нашему сообществу и играй с лучшими из лучших!</div>
+      <div class="l-container signup-header clearfix">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-title"><a class="breadcrumbs-link" href="/">Главная</a></li>
+            <li class="breadcrumbs-title">Регистрация</li>
+          </ul>
+          <div class="signup-header-title">Регистрация нового пользователя</div>
       </div>
 
-    </div>
+      <div class="l-container signup-cont clearfix">
+        <div class="signup-form">
+          <form class="reg-form" action="" method="post">
+          <div class="alert success">Успешно!</div>
+          <div class="alert fail">С ошибкой</div>
+          <div class="signup-form-part">
+            <div class="signup-label"><label for="login">Введите логин:<div class="field-subtitle">(Латин. символы)</div></label></div><input type="text" name="login" id="login" placeholder="Arx">
+            <div class="signup-label"><label for="email">Введите e-mail:<div class="field-subtitle">(Латин. символы)</div></label></div><input type="email" name="email" id="email" placeholder="Arx@mail.ru">
+          </div>
+          <div class="signup-form-part">
+            <div class="signup-label"><label for="pass">Введите пароль:<div class="field-subtitle">(Латин. символы)</div></label></div><input type="text" name="pass" id="pass">
+            <div class="signup-label"><label for="pass-check">Введите пароль еще раз:<div class="field-subtitle">(Латин. символы)</div></label></div><input type="text" name="pass-check" id="pass-check">
+          </div>
+          <div class="signup-form-part">
+            <div class="signup-label"><label for="question">Выберите вопрос:</label></div>
+              <select name="question" id="question">
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            <div class="signup-label"><label for="answer">Ответ на вопрос:<div class="field-subtitle">(Латин. символы)</div></label></div><input type="text" name="answer" id="answer">
+          </div>
+          <div class="footer-signup-form">
+            <input class="checkbox-signup-form" type="checkbox" id="checkbox-signup" name="agree">
+            <label for="checkbox-signup">Я ознакомлен(а) и согласен(на) с <a class="form-link" href="#"> правилами общения </a> на сайте<label>
+          </div>
+          <div class="footer-signup-form">
+          <input class="btn-submit" type="submit" value="Зарегистрироваться">
+        </div>
+          </form>
+        </div>
+        <div class="signup-logo"><img src="content/img/logosignup.png" alt=""></div>
+      </div>
+
+
+  </div>
 
     <div class="l-container l-social">
       <div class="social-cont">
@@ -195,7 +169,7 @@
 	<script>
 		(function($) {
 		$(function() {
-			$('input, select').styler({
+			$('select').styler({
 				selectSearch: true
 			});
 		});
