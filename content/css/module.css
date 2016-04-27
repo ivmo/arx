@@ -1383,8 +1383,15 @@ text-decoration: none;
   text-align: right;
 }
 
+.capcha .signup-label {
+  margin-top: 40px;
+  width: auto;
+}
+
 .capcha-pic {
-  margin: 0 auto 10px auto;
+  float: right;
+  width: 140px;
+  margin: 0 auto 10px 10px;
 }
 
 .capcha-pic img {
@@ -1475,6 +1482,12 @@ text-decoration: none;
 .copyrights {
   max-width: 346px;
 }
+/*signup.html*/
+.capcha .signup-label {
+  width: 140px;
+  margin-top: 32px;
+}
+/*end signup.html*/
 }
 @media (max-width: 1070px) {
   /*signup.html*/
@@ -1813,6 +1826,17 @@ text-decoration: none;
 }
 .capcha {
   text-align: left;
+}
+
+.capcha-pic {
+  float: none;
+  width: auto;
+  margin: 0 auto 10px auto;
+}
+
+.capcha .signup-label {
+  width: auto;
+  margin-top: 0;
 }
 /*end signup*/
 }
