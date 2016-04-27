@@ -1122,6 +1122,30 @@ text-decoration: none;
   color: #323b40;
 }
 
+.server-status {
+  float: right;
+  width: 220px;
+  margin-right: 100px;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.greentxt {
+  color: #00ff06;
+}
+
+.redtxt {
+  color: #851012;
+}
+
+.count-pl {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
 /*end wf.html*/
 
 .active-sort-item {
@@ -1243,6 +1267,7 @@ text-decoration: none;
   padding: 20px 0 10px 20px;
   border-bottom: 1px solid #1f2428;
   font-size: 0;
+  text-align: right;
 }
 
 .signup-label {
@@ -1352,6 +1377,22 @@ text-decoration: none;
   background-image: url("../img/check.png");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.capcha {
+  text-align: right;
+}
+
+.capcha-pic {
+  margin: 0 auto 10px auto;
+}
+
+.capcha-pic img {
+  max-width: 100%;
+}
+
+.capcha input {
+  width: 215px;
 }
 
 .form-link {
@@ -1726,6 +1767,9 @@ text-decoration: none;
   background: #0F1113;
 }
 
+.server-status {
+  margin-right: 0;
+}
 /*end wf.html*/
 
 /*signup.html*/
@@ -1762,6 +1806,13 @@ text-decoration: none;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+}
+
+.signup-form-part {
+  text-align: left;
+}
+.capcha {
+  text-align: left;
 }
 /*end signup*/
 }
@@ -1824,6 +1875,13 @@ text-decoration: none;
   .download-btn {
     width: 180px;
   }
+  .big-logo-cont {
+    float: none;
+  }
+  .server-status {
+    float: none;
+    padding-top: 15px;
+  }
 /*end wf.html*/
 
 /*signup.html*/
@@ -1845,6 +1903,10 @@ text-decoration: none;
 .signup-form-part .jq-selectbox,
 .signup-form-part input {
   width: 100%;
+}
+
+.footer-signup-form {
+  text-align: center;
 }
 
 /*end signup*/
