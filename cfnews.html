@@ -9,13 +9,14 @@
     <link href="content/css/layout.css" rel="stylesheet">
     <link href="content/css/module.css" rel="stylesheet">
     <link href="content/css/state.css" rel="stylesheet">
+    <link href="content/news/css/layout.css" rel="stylesheet">
+    <link href="content/news/css/module.css" rel="stylesheet">
+    <link href="content/news/css/state.css" rel="stylesheet">
     <link href="content/css/jquery.formstyler.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="content/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="content/slick/slick-theme.css" />
-    <title>Main page</title>
+    <title>news page</title>
 </head>
 
-<body class="l-wf-bg">
+<body class="l-cf-bg">
     <header class="l-header">
         <div class="l-container clearfix">
             <div class="logo"><a href="/"><img src="content/img/logo.png" alt="" /></a></div>
@@ -32,7 +33,7 @@
             </div>
             <nav class="main-menu">
                 <ul class="menu-container">
-                    <li class="menu-item active"><a class="item-link" href="#">Warface</a></li>
+                    <li class="menu-item active"><a class="item-link" href="#">Cross fire</a></li>
                     <li class="menu-item"><a class="item-link" href="#">Игры</a></li>
                     <li class="menu-item"><a class="item-link" href="#">Форум</a></li>
                     <li class="menu-item"><a class="item-link" href="#">Тех.поддержка</a></li>
@@ -43,7 +44,7 @@
     </header>
 
     <div class="l-container big-logo">
-      <div class="big-logo-cont"><img src="content/img/wflogo-main.png" alt="" /></div>
+      <div class="big-logo-cont"><img src="content/img/cf.png" alt="" /></div>
       <div class="server-status">
         Статус сервера: <span class="greentxt"> online</span><div class="count-pl">Онлайн игроков: 1728</div>
       </div>
@@ -62,10 +63,9 @@
             <ul class="m-menu-list" id="list">
               <li class="m-menu-item m-menu-item-active"><span>Главная</span></li>
               <li class="m-menu-item"><a class="m-menu-item-link" href="#">Об игре</a></li>
-              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Рейтинги</a></li>
-              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Скачать</a></li>
-              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Медиа</a></li>
-              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Общение</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Сообщество</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Кланы</a></li>
+              <li class="m-menu-item"><a class="m-menu-item-link" href="#">Турниры</a></li>
               <li class="m-menu-item"><a class="m-menu-item-link" href="#">Помощь</a></li>
             </ul>
           </div>
@@ -73,108 +73,61 @@
 
     </div>
 
-    <div class="l-container l-news-slider">
-
-        <div class="news-slider">
-            <input type="radio" id="news-1" name="newstoggle" checked>
-            <input type="radio" id="news-2" name="newstoggle">
-            <input type="radio" id="news-3" name="newstoggle">
-            <div class="news-slider-controls">
-                <label class="news-slider-controls-btn1" for="news-1"></label>
-                <label class="news-slider-controls-btn2" for="news-2"></label>
-                <label class="news-slider-controls-btn3" for="news-3"></label>
-            </div>
-            <div class="news-slides">
-                <div class="news-slide">
-                    <div class="news-slide-snip">
-                        <h2 class="news-slide-title">Прими участие в конкурсе репостов</h2>
-                        <p class="news-slide-text">Выиграй игровой пк и другие призы!</p>
-                    </div>
-                </div>
-                <div class="news-slide">
-                    <div class="news-slide-snip">
-                        <h2 class="news-slide-title">Прими участие в конкурсе репостов</h2>
-                        <p class="news-slide-text">Выиграй игровой пк и другие призы!</p>
-                    </div>
-                </div>
-                <div class="news-slide">
-                    <div class="news-slide-snip">
-                        <h2 class="news-slide-title">Прими участие в конкурсе репостов</h2>
-                        <p class="news-slide-text">Выиграй игровой пк и другие призы!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="l-container l-wf-wrapper clearfix">
+    <div class="l-container l-cf-wrapper clearfix">
 
         <div class="l-news-content">
-            <div class="sorting-row clearfix">
-                <div class="sorting-title">Новости</div>
-                <ul class="sorting-items">
-                    <li class="sorting-item active-sort-item"><a class="sorting-link" href="#">Последние</a></li>
-                    <li class="sorting-item"><a class="sorting-link" href="#">Важное</a></li>
-                    <li class="sorting-item"><a class="sorting-link" href="#">Конкурсы</a></li>
-                    <li class="sorting-item"><a class="sorting-link" href="#">Акции</a></li>
-                    <li class="sorting-item"><a class="sorting-link" href="#">Общее</a></li>
-                </ul>
-            </div>
-            <div class="gradient-border"></div>
-
 
             <div class="news-block">
-                <div class="news-item clearfix">
-                    <div class="news-pic"><img src="content/img/news1.jpg" alt="" /></div>
-                    <div class="news-text">
-                        <div class="news-head">
+                <div class="news-page-item clearfix">
+
+                    <div class="news-text-page">
+                        <div class="news-page-head">
                             <div class="news-date"><span class="date-num">20</span>.03.2016</div>
+                            <div class="news-label">Важное</div>
                             <div class="news-title">Скидки на ускорители ждут вас!</div>
                         </div>
                         <div class="news-body">
-                            <div class="news-preview">Времени на приобритение ускорителей со скидкой остальсь совсем мало.</div>
-                            <a class="read-more" href="#">Читать подробнее</a>
+                            <div class="news-content">
+                               Времени на приобритение ускорителей со скидкой остальсь совсем мало.<br>текст новости
+                            </div>
                         </div>
 
                     </div>
                 </div>
-                <div class="news-item">
-                    <div class="news-pic"><img src="content/img/news1.jpg" alt="" /></div>
-                    <div class="news-text">
-                        <div class="news-head">
-                            <div class="news-date"><span class="date-num">20</span>.03.2016</div>
-                            <div class="news-title">Скидки на ускорители ждут вас!</div>
-                        </div>
-                        <div class="news-body">
-                            <div class="news-preview">Времени на приобритение ускорителей со скидкой остальсь совсем мало.</div>
-                            <a class="read-more" href="#">Читать подробнее</a>
-                        </div>
 
-                    </div>
-                </div>
-                <div class="news-item">
-                    <div class="news-pic"><img src="content/img/news1.jpg" alt="" /></div>
-                    <div class="news-text">
-                        <div class="news-head">
-                            <div class="news-date"><span class="date-num">20</span>.03.2016</div>
-                            <div class="news-title">Скидки на ускорители ждут вас!</div>
-                        </div>
-                        <div class="news-body">
-                            <div class="news-preview">Времени на приобритение ускорителей со скидкой остальсь совсем мало.</div>
-                            <a class="read-more" href="#">Читать подробнее</a>
-                        </div>
+            </div>
 
+            <div class="comments">
+              <div class="comments-area clearfix">
+                <form action="">
+                  <textarea class="text-area" name="comment" rows="8" cols="40"></textarea>
+                  <button class="btn-comment" type="submit">Оставить комментарий</button>
+                </form>
+              </div>
+              <div class="comments-list">
+                <div class="comment-item">
+                  <div class="comment-item-img"><a href="#"><img src="" alt="" /></a></div>
+                  <div class="comment-item-text">
+                    <div class="comment-item-text-header clearfix">
+                      <div class="comment-username"><a class="comment-username-link online-dot" href="#">CryWolf73</a></div>
+                      <div class="comment-date"><span class="dark-text">Добавлено: </span> сегодня в 16:50</div>
                     </div>
+                    <div class="comment-item-text-body"> коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент</div>
+                    <div class="reply"><a class="reply-link" href="#">Ответить</a></div>
+                  </div>
                 </div>
-                <ul class="pagination">
-                    <li class="page-number"><a class="page-link current-page" href="#">1</a></li>
-                    <li class="page-number"><a class="page-link" href="#">2</a></li>
-                    <li class="page-number"><a class="page-link" href="#">3</a></li>
-                    <li class="page-number"><a class="page-link" href="#">4</a></li>
-                    <li class="page-number"><a class="page-link" href="#">5</a></li>
-                    <li class="page-number"><a class="page-link-dots" href="#">...</a></li>
-                    <li class="page-number"><a class="page-link" href="#">99</a></li>
-                </ul>
+                <div class="comment-item">
+                  <div class="comment-item-img"><a href="#"><img src="" alt="" /></a></div>
+                  <div class="comment-item-text">
+                    <div class="comment-item-text-header clearfix">
+                      <div class="comment-username"><a class="comment-username-link offline-dot" href="#">CryWolf73</a></div>
+                      <div class="comment-date"><span class="dark-text">Добавлено: </span> сегодня в 16:50</div>
+                    </div>
+                    <div class="comment-item-text-body"> коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент коммент</div>
+                    <div class="reply"><a class="reply-link" href="#">Ответить</a></div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="promo">
@@ -200,43 +153,9 @@
                     <div class="promo-text">Рейтинг игроков по рангу. Посмотри их все!</div>
                 </div>
             </div>
-            <div class="sorting-row clearfix">
-                <div class="sorting-title">Медиа</div>
-                <ul class="sorting-items" id="gallery_tabs">
-                    <li class="sorting-item active-sort-item"><a class="sorting-link" href="#screen">Скриншоты</a></li>
-                    <li class="sorting-item"><a class="sorting-link" href="#wall">Обои</a></li>
-                    <li class="sorting-item"><a class="sorting-link" href="#video">Видео</a></li>
-                </ul>
-            </div>
-            <div class="gradient-border"></div>
 
-            <div class="slider-bottom" id="gallery_tabs_content">
-                <div class="media-slider tab" id="screen">
-                    <input type="radio" id="media-1" name="mediatoggle" checked>
-                    <input type="radio" id="media-2" name="mediatoggle">
-                    <input type="radio" id="media-3" name="mediatoggle">
-                    <div class="media-slider-controls">
-                        <label class="media-slider-controls-btn1" for="media-1"></label>
-                        <label class="media-slider-controls-btn2" for="media-2"></label>
-                        <label class="media-slider-controls-btn3" for="media-3"></label>
-                    </div>
-                    <div class="media-slides">
-                        <div class="media-slide">
 
-                        </div>
-                        <div class="media-slide">
-
-                        </div>
-                        <div class="media-slide">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="tab" id="wall">Обои</div>
-                <div class="tab" id="video">Видео</div>
-            </div>
-
-        </div>
+          </div>
 
         <aside class="l-sidebar">
             <div class="sidebar-section">
@@ -334,7 +253,7 @@
                 <div class="des-link">
                     <a href="#"></a>
                 </div>
-                <div class="copyrights-text"><span class="red">&copy; 2015-2016 </span>ARX Gaming All rights reserved.</div>
+                <div class="copyrights-text"><span class="orange">&copy; 2015-2016 </span>ARX Gaming All rights reserved.</div>
                 <div class="copyrights-text-bottom">Trademarks referenced herein belong to their respective owners.</div>
             </div>
         </div>
@@ -354,7 +273,6 @@
     <script src="content/slick/slick.min.js"></script>
     <script src="content/js/jquery.formstyler.js"></script>
     <script src="content/js/m-nav.js"></script>
-    <script src="content/js/tabs.js"></script>
     <script>
         $(document).ready(function() {
             $('.main-slider').slick({

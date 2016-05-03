@@ -21,7 +21,13 @@
 .is-games-top-hover,
 .section-link:hover,
 .is-section-link-hover {
-  background: linear-gradient(to top, rgba(255, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.1) 100%);
+  background: linear-gradient(to top, rgba(255, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.1) 100%);
+  cursor: pointer;
+}
+
+.l-cf-wrapper .section-link:hover,
+.is-cf-section-link-hover {
+  background: linear-gradient(to top, rgba(255, 127, 0, 0.4) 30%, rgba(0, 0, 0, 0.1) 100%);
   cursor: pointer;
 }
 
@@ -72,7 +78,7 @@ background: #324a80;
   color: #fff;
 }
 
-.active-sort-item:hover,
+.active-sort-item a:hover,
 .is-active-sort-item-hover {
   color: #f00;
   pointer-events: none;
@@ -81,6 +87,11 @@ background: #324a80;
 .read-more:hover,
 .is-read-more-hover {
   color: #942527;
+}
+
+.l-cf-wrapper .read-more:hover,
+.is-cf-read-more-hover {
+  color: #ff7f00;
 }
 
 .page-link:hover,

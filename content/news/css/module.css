@@ -66,6 +66,10 @@
     padding: 0 20px;
 }
 
+.l-cf-wrapper .news-page-head {
+  border-bottom: 1px solid #2e353b;
+}
+
 .news-content {
   margin-bottom: 24px;
   font-size: 16px;
@@ -105,6 +109,7 @@
   font-size: 15px;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .comments-list {
