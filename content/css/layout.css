@@ -77,7 +77,7 @@ body {
 /*end index.html*/
 /*wf.html*/
 .l-wf-bg {
-  background: #0f1113 url("../img/wf-main.png") no-repeat;
+  background: #0f1113 url("../img/wf-main.png") no-repeat top center;
 }
 
 .l-cf-bg {
@@ -141,8 +141,12 @@ body {
   background: #0F1113;
 }
 
+.l-wf-wrapper {
+  background-color: #1A1E21;
+}
+
 .l-wf-wrapper .l-sidebar {
-  background: transparent;
+  background-color: #16191C;
 }
 
 .l-cf-bg .l-sidebar {
