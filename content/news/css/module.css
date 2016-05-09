@@ -246,4 +246,7 @@
 .comment-item-text-header {
   height: 35px;
 }
+.comments-area {
+  padding: 30px 10px;
+}
 }

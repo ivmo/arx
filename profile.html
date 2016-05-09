@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+  <link href="content/css/reset.css" rel="stylesheet">
+  <link href="content/css/layout.css" rel="stylesheet">
+  <link href="content/css/module.css" rel="stylesheet">
+  <link href="content/css/state.css" rel="stylesheet">
+  <link href="content/news/css/layout.css" rel="stylesheet">
+  <link href="content/news/css/module.css" rel="stylesheet">
+  <link href="content/news/css/state.css" rel="stylesheet">
+  <link href="content/css/jquery.formstyler.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="content/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="content/slick/slick-theme.css"/>
+  <title>Мои обращения</title>
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-container clearfix">
+      <div class="logo"><a href="/"><img src="content/img/logo.png" alt="" /></a></div>
+      <div class="user-block">
+          <a class="profile-link" href="#">Elf80lvl</a>
+          <a class="user-link" href="#">Завершить сеанс</a>
+          <div class="lang">
+              <select>
+                  <option class="lang-ru">Русский</option>
+                  <option class="lang-en">English</option>
+              </select>
+
+          </div>
+      </div>
+      <nav class="main-menu">
+        <ul class="menu-container">
+          <li class="menu-item active">
+            <a class="item-link" href="#">Игры</a>
+            <ul class="menu-container-sub">
+                  <li class="menu-sub-item"><a class="menu-sub-item-link" href="#">Warface</a></li>
+                  <li class="menu-sub-item"><a class="menu-sub-item-link" href="#">Crossfire</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a class="item-link" href="#">Форум</a></li>
+          <li class="menu-item"><a class="item-link" href="#">Тех.поддержка</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <div class="l-main">
+      <div class="l-container signup-header clearfix">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-title"><a class="breadcrumbs-link" href="/">Главная</a></li>
+            <li class="breadcrumbs-title">Профиль</li>
+          </ul>
+          <div class="signup-header-title">Профиль пользователя ARXGAME</div>
+      </div>
+
+      <div class="l-container ask-cont">
+        <div class="doppage-header profile-header clearfix">
+          <a class="profile-link" href="#">Elf80lvl</a>
+          <ul class="doppage-nav profile-nav">
+            <li class="doppage-nav-item"><a class="doppage-nav-item-link active" href="#">Данные</a></li>
+            <li class="doppage-nav-item"><a class="doppage-nav-item-link" href="#">Друзья</a><sup>0</sup></li>
+            <li class="doppage-nav-item"><a class="doppage-nav-item-link" href="#">Игры</a><sup class="red">2</sup></li>
+            <li class="doppage-nav-item"><a class="doppage-nav-item-link" href="#">Комментарии</a><sup class="red">15</sup></li>
+            <li class="doppage-nav-item"><a class="doppage-nav-item-link" href="#">Ответы</a><sup>0</sup></li>
+            <li class="doppage-nav-item"><a class="doppage-nav-item-link" href="#">Темы</a><sup>0</sup></li>
+            <li class="doppage-nav-item"><a class="doppage-nav-item-link" href="#">Подарки</a><sup>0</sup></li>
+          </ul>
+
+        </div>
+        <div class="myprofile-wrapp clearfix">
+          <div class="myprofile-row">
+            <div class="myprofile-left">Замечаний:</div>
+            <div class="myprofile-right">0 | <a  class="myprofile-link" href="#">История</a></div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left">Контакт:</div>
+            <div class="myprofile-right"><a  class="myprofile-link" href="#">Написать сообщение</a></div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left">Блоги:</div>
+            <div class="myprofile-right"><a  class="myprofile-link" href="#">Персональный</a></div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left">Дата регистрации:</div>
+            <div class="myprofile-right">29.02.2016</div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left">Последнее посещение:</div>
+            <div class="myprofile-right">29.02.2016</div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left">Друзья (0):</div>
+            <div class="myprofile-right">Не дружит ни с кем</div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left">Любимые игры (0):</div>
+            <div class="myprofile-right">Не хочет делиться</div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left"><a  class="myprofile-link" href="#">Галерея:</a></div>
+            <div class="myprofile-right">Нет загруженных фото или картинок</div>
+          </div>
+          <div class="myprofile-row">
+            <div class="myprofile-left">Награды:</div>
+            <div class="myprofile-right">Пока ни одной</div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+  </div>
+
+    <div class="l-container l-social">
+      <div class="social-cont">
+        <a class="social-btn fb" href="#"><i class="sprite sprite-fb"></i></a>
+        <a class="social-btn vk" href="#"><i class="sprite sprite-vk"></i></a>
+        <a class="social-btn tw" href="#"><i class="sprite sprite-tw"></i></a>
+        <a class="social-btn gl" href="#"><i class="sprite sprite-google"></i></a>
+      </div>
+    </div>
+
+    <footer class="l-footer">
+      <div class="l-container l-footer-items">
+        <div class="footer-item">
+          <div class="footer-title">Список игр</div>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Crossfire</a></li>
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Warface</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <div class="footer-title">Аккаунт</div>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Создать аккаунт</a></li>
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Восстановить аккаунт</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <div class="footer-title">Контакты</div>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Форум</a></li>
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <div class="footer-title">Правила</div>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Правила проекта</a></li>
+            <li class="footer-list-item"><a class="footer-item-link" href="#">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+        <div class="footer-item copyrights">
+          <div class="des-link"><a href="#"></a></div>
+          <div class="copyrights-text"><span class="red">&copy; 2015-2016 </span>ARX Gaming All rights reserved.</div>
+          <div class="copyrights-text-bottom">Trademarks referenced herein belong to their respective owners.</div>
+        </div>
+      </div>
+    </footer>
+
+  <!-- <i class="sprite sprite-fb"></i>
+<i class="sprite sprite-google"></i>
+<i class="sprite sprite-marts1"></i>
+<i class="sprite sprite-marts2"></i>
+<i class="sprite sprite-minicf"></i>
+<i class="sprite sprite-miniwf"></i>
+<i class="sprite sprite-tw"></i>
+<i class="sprite sprite-vk"></i> -->
+  <!--  -->
+  <script type="text/javascript" src="content/slick/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="content/slick/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="content/slick/slick.min.js"></script>
+  <script src="content/js/jquery.formstyler.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $('.main-slider').slick({
+      infinite: true,
+      autoplay: true,
+      arrows: true
+    });
+    });
+  </script>
+	<script>
+		(function($) {
+		$(function() {
+			$('select').styler({
+				selectSearch: true
+			});
+		});
+		})(jQuery);
+	</script>
+</body>
+</html>
