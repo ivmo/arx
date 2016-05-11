@@ -1,3 +1,26 @@
+.profile-link {
+  position: relative;
+  float: left;
+  margin-right: 35px;
+  padding: 12px 0 12px 45px;
+  color: #bfbfbf;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.profile-link:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #000 url("/content/img/profilepic.jpg");
+}
+
 .sprite {
     background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
