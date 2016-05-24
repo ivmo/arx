@@ -131,14 +131,127 @@ background: #324a80;
 }
 /*end wf.html*/
 
+/*downloads.html*/
+.is-white {
+  color: #fff;
+  margin-bottom: 5px;
+}
 
+.btns-box {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
 
+@media (max-width: 768px) {
+  .btns-box {
+    min-height: 220px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
+.btns-box .download-btn {
+  margin-right: 20px;
+  padding: 20px 0;
+}
 
+.cont-row {
+  padding: 30px 18px 26px;
+}
 
+.drivers {
+  background: #14161a;
 
+}
 
+.row-title {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 15px;
+}
 
+.drivers-row,
+.sys-row {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.drivers-cell {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.drivers-cell:first-child {
+  margin-right: 30px;
+  flex-grow: 2;
+}
+
+.drivers-cell img {
+  margin-right: 15px;
+}
+
+.drivers-cell span {
+  color: #bfbfbf;
+}
+
+.drivers-cell .download-drv {
+  margin: 5px auto;
+  color: #657680;
+}
+
+.drivers-cell .download-drv:hover {
+  color: #fff;
+}
+
+.system {
+  background: #1a1e21;
+}
+
+.col-sys {
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .col-sys {
+  margin-right: 0;
+}
+}
+
+.col-sys-title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.sys-yellow {color: #ffd400;}
+
+.sys-green {color: #55ff00;}
+
+.col-sys-list {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.col-sys-list li {
+  margin-bottom: 5px;
+}
 
 
 
